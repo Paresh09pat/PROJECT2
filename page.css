@@ -1,0 +1,184 @@
+.box{
+display: flex;
+width: 60%;
+justify-content:space-between;
+margin-left: 18%;
+margin-top: 7%;
+}
+
+.he3{
+float: left;
+}
+
+.box1{
+font-size: 70px;
+width: 40%;
+margin-left: 7%;
+}
+
+.box2{
+    padding: 15px 0 0 10px;
+    width: 30%;
+    text-decoration: none;
+}
+
+.he1{
+font-size: 70px;
+font-weight: bolder;
+}
+
+.he2{
+padding: 20px;
+margin-top: 10px;
+font-size: xx-large;
+text-decoration: none;
+}
+
+.main{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-evenly;
+    margin-top: 3%;  
+}
+
+.main div{
+    border: 2px solid rgb(247, 26, 33);
+    width: 35%;
+    height: 400px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 20px;
+    margin: 3%;
+    box-shadow: 5px 5px rgb(194, 185, 185);  
+}
+
+.a1{
+color: rgb(207, 130, 103);
+text-decoration: none;
+}
+
+.a2{
+text-decoration: line-through;
+color: red;
+}
+
+
+.bro{
+font-size: 70px;
+text-align: center;
+margin-left: 20%;
+margin-top: 5%;
+width: 60%;
+position: relative;
+}
+
+.bro:before{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    background: #000;
+    left: 5%;
+    top: 50%;
+}
+
+.bro:after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    background: #000;
+    right: 5%;
+    top: 50%;
+}
+
+
+
+.bro1{
+margin-top: 3%;
+font-size: 70px;
+width: 40%;
+margin-left: 45%;
+justify-content: center;
+}
+
+.bro2{
+    float: left;
+    }
+        
+.bro3{
+    font-size: xx-large;
+    margin-left: 5%;
+    }
+
+.cont:not(#block) {
+        filter: blur(8px);
+}
+
+.sub{
+    border: 2px solid rgb(240, 18, 18);
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 35%;
+    height: 50%;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 3%;
+    border-radius: 15px;
+    box-shadow: 10px 0 rgb(226, 218, 218);
+}
+
+.sub1{
+    width: 30%;
+    margin-top: 23%;
+    margin-left: 75%;
+}
+
+.contain:not(#block) {
+    filter: blur(8px);
+    opacity: 50%;
+}
+
+#block{
+    border: 2px solid rgb(238, 51, 51);
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 2%;
+    font-size: x-large;
+    height: 25%;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(221, 214, 214);
+    filter: blur(0px);
+    position: absolute;
+    z-index:1;
+    top: 30%;
+
+}
+
+.kk{
+    border: 1px solid red;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+
+}
+
+.kk1{
+    width:70%;
+    height: 20%;
+    border: 1px solid rgb(246, 12, 12);
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(242, 235, 235);
+}
+
+
